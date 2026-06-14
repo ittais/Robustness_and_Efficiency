@@ -1,0 +1,13 @@
+%READ ME: 
+%Dynamical networks:
+%Electrophysiological data, acquired from the amygdala and dACC of both macaque monkeys and humans 
+%subjects, will be made available upon request.
+%
+%The Spikes functions (for macaques and humans) are run separately for varying spatial resolutions/
+%network sizes (N number of nodes) and temporal resolutions (dt correlation timeframe). 
+%Overall, 16 variations (4 N * 4 dt) are run for each of the 10 recordings (5 macaque recordings and 5 
+%humans recordings).
+%
+%Figs 2 and 3 are plotted afterwards, comparing results across regions (amygdala/dACC) and species 
+%(humans/macaques).
+%
