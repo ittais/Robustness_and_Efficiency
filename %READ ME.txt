@@ -1,0 +1,27 @@
+%READ ME: 
+%Exploring measures of brain robustness and efficiency across structural and dynamical networks
+%Code Availability: Custom MATLAB code used for network construction, spectral analyses, percolation analyses, and statistical analyses is available at [https://github.com/ittais/Robustness_and_Efficiency].
+%
+%Structural networks:
+%Download mammalian connectomes from link and add humans data from second link in same folder:
+%NHP connectomes: https://zenodo.org/records/7143143 
+%Human connectomes: https://github.com/ittais/Laminar_Connectivity 
+%%200 region parcellations appear in files ending in 100 (per hemisphere), and human data HCMs.mat
+%100 region pacellations appear in files ending in 50 (per hemisphere), and human data HCMs86.mat 
+%
+%Dynamical networks:
+%Electrophysiological data, acquired from the amygdala and dACC of both macaque monkeys and humans 
+%subjects, will be made available upon request.
+%
+%Toolbox:
+%Brain Connectivity Toolbox
+%(https://sites.google.com/site/bctnet/https://sites.google.com/site/bctnet/):
+%download and add to path
+%some functions, like ones relating to efficiency and LCC, are used from this toolbox
+%
+%Functions in this GitHub:
+%Three folders:
+%1. Neural coding (dynamical networks): functions for generating Figs 2-3 in manuscript
+%2. Neural wiring (structural networks): functions for generating Figs 5-6 in manuscript
+%3. Pair-wise Morphospace (both domains): functions for generating Fig 7 in manuscript
+%
